@@ -60,9 +60,9 @@ function cargarAPI() {
                 <li><b>Alto:</b> ${imagen.width}</li>
                 <li><b>Ancho:</b> ${imagen.height}</li>
                 <li><b>Nombre:</b> ${imagen.filename}</li>
-                <li><b>Autor:</b> ${imagen.author}</li>
+                <li><b>Autor:</b> <a>${imagen.author}</li>
                 <li><b>URL del Autor:</b> ${imagen.author_url}</li>
-                <li><b>URL del Post:</b> ${imagen.post_url}</li>
+                <li><a href="${imagen.post_url}" class="img-url"><b>Ver imagen</b></a></li>
                 <br>
                 `;
 			});

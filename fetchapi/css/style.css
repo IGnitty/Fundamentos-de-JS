@@ -1,0 +1,8 @@
+li .img-url {
+	text-decoration: none;
+	color: rgb(8, 173, 146);
+}
+
+li .img-url:hover {
+	color: royalblue;
+}
