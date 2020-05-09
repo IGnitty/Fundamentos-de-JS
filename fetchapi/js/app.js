@@ -52,6 +52,7 @@ function cargarAPI() {
 			return res.json();
 		})
 		.then(function (data) {
+			console.log(data);
 			let html = '';
 			data.forEach(function (imagen) {
 				html += `
