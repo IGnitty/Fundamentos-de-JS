@@ -26,13 +26,11 @@
 // 	});
 
 //Consumiendo una API de verdad con fetch api, async - await y arrow functions
-
 async function leerTodos() {
 	// Esperar la respuesta
 	const respuesta = await fetch('https://jsonplaceholder.typicode.com/todos');
 
 	// cuando se hayan cargado todos los datos en la constante
-
 	const datos = await respuesta.json();
 	return datos;
 }
